@@ -1,3 +1,28 @@
+# RMS laradock
+
+This is a custom laradock environment for use with the RMS project. Full documentation about laradock itself can be found
+at http://laradock.io/
+
+To setup RMS, use the multiple projects setup documented here: http://laradock.io/#B and instead of cloning with:
+
+`git clone https://github.com/laradock/laradock.git`
+ 
+ use
+  
+  `git clone https://github.com/Vicimus/laradock.git`
+  
+You can use a folder structure like this:
+```
+ RMS/ (Root folder, can be anything)
+   + Calendar-API
+   + Customer-API
+   + RMS
+   + RMS-UI
+   + TasksAPI
+   + Vault-API
+   + laradock (This is this repo)
+```
+
 <p align="center">
     <img src="https://s19.postimg.org/jblfytw9f/laradock-logo.jpg" alt="Laradock Logo"/>
 </p>

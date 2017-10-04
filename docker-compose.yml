@@ -118,7 +118,7 @@ services:
         backend:
           aliases:
             - www.vault-api.app
-            - www.customer-api.app
+            - www.customers-api.app
             - www.calendar-api.app
             - www.tasks-api.app
             - www.rms.app
